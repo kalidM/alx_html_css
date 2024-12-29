@@ -1,0 +1,499 @@
+/* Styles for the header */
+header {
+    background-image: url('E:/alx_html_css/css_advanced/Images/Object.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  header .cta-button {
+    background-color: #9b59b6;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  header .cta-button:hover {
+    background-color: #8e44ad;
+  }
+  
+  /* Styles for the first section */
+  section {
+    background-color: #f7f7f7;
+    padding: 50px 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  section h2 {
+    color: #34495e;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    color: #7f8c8d;
+    font-size: 1rem;
+    margin-bottom: 30px;
+  }
+  
+  section .profile-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .profile {
+    text-align: center;
+    width: 150px;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+  }
+  
+  .profile h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+    color: #2c3e50;
+  }
+  
+  .profile p {
+    font-size: 0.9rem;
+    color: #95a5a6;
+  }
+  /* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Menu */
+.menu {
+    position: absolute;
+    width: 234px;
+    height: 15px;
+    left: 1041px;
+    top: 37px;
+}
+
+/* Common Styles for Menu Items */
+.menu-item {
+    position: absolute;
+    height: 15px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+    top: calc(50% - 15px / 2);
+}
+
+/* Courses */
+.menu-item.courses {
+    left: 0%;
+    right: 78.63%;
+}
+
+/* Pricing */
+.menu-item.pricing {
+    left: 43.59%;
+    right: 37.18%;
+}
+
+/* Login */
+.menu-item.login {
+    left: 85.47%;
+    right: 0%;
+}
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Pros Container */
+.pros {
+    position: absolute;
+    width: 1009px;
+    height: 237px;
+    left: 217px;
+    top: 758px;
+}
+
+/* Individual Pro Blocks */
+.pro {
+    position: absolute;
+    top: 69.35%;
+    bottom: 8.97%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Specific Positions */
+.pro.pro_1 {
+    left: 15.07%;
+    right: 74.51%;
+}
+
+.pro.pro_2 {
+    left: 35.14%;
+    right: 54.44%;
+}
+
+.pro.pro_3 {
+    left: 54.65%;
+    right: 34.93%;
+}
+
+.pro.pro_4 {
+    left: 74.72%;
+    right: 14.86%;
+}
+
+/* Avatar */
+.pro .avatar {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    background: url('E:/alx_html_css/css_advanced/Images/Object.png') no-repeat center;
+    background-size: cover;
+}
+
+/* Mask */
+.pro .mask {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 36.71%;
+    background: #FFFFFF;
+}
+
+/* Name Styles */
+.pro .name {
+    position: absolute;
+    height: 27px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 27px / 2 + 55px);
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px; /* 150% */
+}
+
+/* Title/Quote Styles */
+.pro .quote {
+    position: absolute;
+    height: 48px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 48px / 2 + 94.5px);
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; /* 150% */
+}
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Testimonials Section */
+.part_1_testimonials {
+    position: absolute;
+    width: 1440px;
+    height: 392px;
+    left: -1px;
+    top: 1093px;
+    background: #C271FF;
+}
+
+/* Testimonial Container */
+.testimonial {
+    position: absolute;
+    width: 943px;
+    height: 160px;
+    left: 259px;
+    top: 1201px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Avatar */
+.testimonial .avatar {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    background: #FFFFFF;
+    border-radius: 50%; /* Optional: Makes the avatar circular */
+    overflow: hidden;
+}
+
+/* Bitmap Inside Avatar */
+.testimonial .avatar .bitmap {
+    width: 100%;
+    height: 100%;
+    background: url('E:/alx_html_css/css_advanced/Images/5.png') no-repeat center;
+    background-size: cover;
+}
+
+/* Testimonial Text */
+.testimonial .text {
+    position: relative;
+    width: 730px;
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+/* Person Name */
+.testimonial .text .name {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+/* Occupation */
+.testimonial .text .occupation {
+    font-family: 'Source Sans Pro';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+/* Testimonial Quote */
+.testimonial .text .quote {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+/* Tutorials Section */
+.part_2_tutorials {
+    position: absolute;
+    width: 1228px;
+    height: 450px;
+    left: 106px;
+    top: 1572px;
+    display: flex;
+    flex-wrap: wrap; /* Allows flexibility for content layout */
+    gap: 20px; /* Space between tutorial items */
+}
+
+/* Tutorial Item */
+.tutorial {
+    flex: 1 1 calc(33.33% - 20px); /* Responsive three-column layout */
+    max-width: calc(33.33% - 20px); /* Ensures columns stay proportional */
+    height: 150px; /* Adjust as per content */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border-radius: 10px; /* Optional for rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    text-align: center;
+    padding: 15px;
+}
+
+/* Tutorial Title */
+.tutorial .title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+/* Tutorial Description */
+.tutorial .description {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #666666;
+}
+
+/* Tutorial Thumbnail */
+.tutorial .thumbnail {
+    width: 100%;
+    height: 100px;
+    background: url('Image.png') no-repeat center;
+    background-size: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/* Free Membership Section */
+.part_3_free_membership {
+    position: absolute;
+    width: 1440px;
+    height: 502px;
+    left: 0;
+    top: 2109px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #F5F5F5; /* Light background color */
+    padding: 20px;
+}
+
+/* Section Title */
+.part_3_free_membership .title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Description */
+.part_3_free_membership .description {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #666666;
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+}
+
+/* Call-to-Action Button */
+.part_3_free_membership .cta-button {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: #C271FF;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.part_3_free_membership .cta-button:hover {
+    background: #A55FD8; /* Slightly darker shade on hover */
+}
+/* FAQ Section */
+.part_4_FAQ {
+    position: absolute;
+    width: 920px;
+    height: auto; /* Use auto height for dynamic content */
+    left: 249px;
+    top: 2678px;
+    background: #FFFFFF;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Section Title */
+.part_4_FAQ .faq-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 42px;
+    color: #333333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Question */
+.part_4_FAQ .question {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #444444;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.part_4_FAQ .question:hover {
+    color: #C271FF; /* Highlight color on hover */
+}
+
+/* Answer */
+.part_4_FAQ .answer {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    margin-bottom: 20px;
+    display: none; /* Initially hidden */
+}
+
+/* Expandable Answer (Visible) */
+.part_4_FAQ .answer.open {
+    display: block;
+}
+
+/* Divider */
+.part_4_FAQ .divider {
+    width: 100%;
+    height: 1px;
+    background: #E0E0E0;
+    margin: 15px 0;
+}
